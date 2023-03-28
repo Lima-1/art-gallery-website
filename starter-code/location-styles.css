@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;500;700&family=Outfit:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=League+Spartan:wght@200;500;700&family=Outfit:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.desktop.section-1 {
+    background-image: url("assets/desktop/image-map.png");
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 0px;
+}
+.location.tab {
+    position: absolute;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 0px;
+}
+.location.tab .text {
+    background-color: #151515;
+    position: absolute;
+    height: 72px;
+    width: 208px;
+    left: 212px;
+    top: 0px;
+}
+.tab .text span {
+    position: absolute;
+    height: 24px;
+    width: 137px;
+    top: 24px;
+    left: 32px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 24px;
+    letter-spacing: 2.0px;
+    text-align: left;
+}
+.tab #arrow {
+    background-color: #D5966C;
+    position: absolute;
+    height: 72px;
+    width: 56px;
+    left: 156px;
+    top: 0px;
+}
+svg {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+
+}
+.desktop.section-2 {
+    background-color: #151515;
+    position: absolute;
+    width: 1440px;
+    height: 548px;
+    left: 0px;
+    top: 600px;
+}
+.desktop.section-2 .content {
+    border: 2px solid whitesmoke;
+    position: absolute;
+    width: 1110px;
+    height: 316px;
+    left: 165px;
+    top: 104px;
+    color: #ffffff;
+}
+.content .title {
+    position: absolute;
+    height: 140px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Big Shoulders Display';
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+
+
+
+}
+.content .address {
+    position: absolute;
+    height: 156px;
+    width: 445px;
+    left: 570px;
+    top: 0px;
+}
+.address span {
+    position: absolute;
+    height: 36px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Big Shoulders Display';
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #D5966C;
+
+}
+.address .city {
+    position: absolute;
+    height: 96px;
+    width: 445px;
+    left: 0px;
+    top: 60px;
+    font-family: 'Outfit';
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.content .description {
+    position: absolute;
+    height: 128px;
+    width: 540px;
+    left: 570px;
+    top: 188px;
+    font-family: 'Outfit';
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.desktop.section-3 {
+    background-color: #D5966C;
+    position: absolute;
+    width: 1440px;
+    height: 244px;
+    left: 0px;
+    top: 1148px;
+
+}
+.desktop.section-3 .contact {
+    border: 2px solid black;
+    position: absolute;
+    width: 1110px;
+    height: 84px;
+    left: 165px;
+    top: 80px;
+    color:#151515;
+    ;
+
+}
+.contact #name {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    height: 58px;
+    width: 159.6px;
+    left: 0px;
+    top: 0px;
+}
+.contact p {
+    position: absolute;
+    height: 84px;
+    width: 430px;
+    left: 300px;
+    top: 0px;
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+
+@media only screen and (481px <= width <= 768px ) {
+    .desktop.section-1 {
+        background-image: url("assets/tablet/image-map.png");
+        width: 768px;
+        height: 600px;
+    }
+    .location.tab {
+        display: none;
+    }
+    .desktop.section-2 {
+        width: 768px;
+        height: 436px;
+        left: 0px;
+        top: 600px;
+    }
+    .desktop.section-2 .content {
+        border: 2px solid whitesmoke;
+        width: 689px;
+        height: 268px;
+        left: 39px;
+        top: 88px;
+    }
+    .content .title {
+        position: absolute;
+        height: 100px;
+        width: 223px;
+        font-size: 55px;
+        line-height: 50px;
+        
+    
+    
+    
+    }
+    .content .address {
+        height: 149px;
+        width: 398px;
+        left: 291px;
+        top: 0px;
+    }
+    .address span {
+        height: 32px;
+        width: 350px;
+        font-size: 32px;
+        line-height: 32px;
+        
+    
+    }
+    .address .city {
+        height: 84px;
+        width: 398px;
+        top: 52px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .content .description {
+        height: 112px;
+        width: 398px;
+        left: 291px;
+        top: 156px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .desktop.section-3 {
+        width: 768px;
+        height: 216px;
+        left: 0px;
+        top: 1036px;
+    
+    }
+    .desktop.section-3 .contact {
+        width: 689px;
+        height: 104px;
+        left: 39px;
+        top: 56px;
+    }
+    .contact #name {
+        height: 40px;
+        width: 110.05px;
+        bottom: 64px;
+        font-size: 20px;
+    }
+
+    .contact p {
+        height: 104px;
+        width: 281px;
+        left: 175px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+}
+
+@media only screen and (320<= width <= 480px ) {
+    .desktop.section-1 {
+        background-image: url("assets/mobile/image-map.png");
+        width: 375px;
+        height: 550px;
+    }
+    .location.tab {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+}    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

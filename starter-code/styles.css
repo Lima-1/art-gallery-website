@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;500;700&family=Outfit:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=League+Spartan:wght@200;500;700&family=Outfit:wght@300;400;500;700&display=swap');
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desktop.section-1 {
+    height: 800px;
+    width: 1275px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 179px;
+    background-image: url(assets/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 540px 800px;
+    background-position: 441px 0px;
+      
+}
+.blank-space {
+    background-color: #151515;
+    position: absolute;
+    width: 450px;
+    height: 799px;
+    left: 0px;
+    top: 0px;   
+}
+.desktop.section-1 .title {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 96px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 88px;
+    letter-spacing: 0px;
+    text-align: left;
+    position: absolute;
+    height: 176px;
+    width: 514px;
+    left: 165px;
+    right: -50.89%;
+    top: 190px;
+    mix-blend-mode: difference;
+}    
+.inspiration {
+    color: #444444;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    position: absolute;
+    height: 160px;
+    width: 350px;
+    left: 925px;
+    top: 190px;
+}
+.location.tab {
+    position: absolute;
+    width: 260px;
+    height: 72px;
+    left: 925px;
+    top: 414px;
+}
+.location.tab .text {
+    background-color: #151515;
+    position: absolute;
+    height: 72px;
+    width: 204px;
+    left: 0px;
+    top: 0px;
+}
+.tab .text span {
+    height: 24px;
+    width: 137px;
+    position: absolute;
+    top: 24px;
+    left: 32px;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 23.94px;
+    letter-spacing: 2.70px;
+    text-align: left;
+}
+.tab #arrow {
+    background-color: #D5966C;
+    position: absolute;
+    height: 72px;
+    width: 56px;
+    left: 204px;
+    top: 0px;
+}
+svg {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+
+}
+
+.desktop.section-2 {
+    position: absolute;
+    height: 1150px;
+    width: 1110px;
+    left: 165px;
+    top: 979px;
+    background-image: url(assets/desktop/image-grid-1.jpg), url(assets/desktop/image-grid-2.jpg), url(assets/desktop/image-grid-3.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 635px 400px, 635px 720px, 445px 313px;
+    background-position: 475px 0px, 0px 430px, 665px 430px;
+}
+.desktop.section-2 .text {
+    height: 280px;
+    width: 350px;
+    position: absolute;
+    left: 0px;
+    top: 60px;
+}
+.desktop.section-2 .text span {
+    height: 120px;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    text-transform: uppercase;
+    color:#151515;
+    font-family: "Big Shoulders Display";
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+#text-a {
+    height: 128px;
+    width: 350px;
+    position: absolute;
+    left: 0px;
+    top: 152px;
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 300;
+    color: #444444;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.desktop.section-2 .gallery-text {
+    background-color: #151515;
+    color: #ffffff;
+    height: 377px;
+    width: 445px;
+    position: absolute;
+    left: 665px;
+    top: 773px;
+
+}
+#text2{
+    height: 248px;
+    width: 350px;
+    position: absolute;
+    left: 48px;
+    top: 65px;
+    bottom: 64px;
+    right: 47px;
+
+}
+#text2 span {
+    height: 120px;
+    width: 350px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-family: "Big Shoulders Display";
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+#text3 {
+    height: 96px;
+    width: 350px;
+    position: absolute;
+    left: 0px;
+    top: 152px;
+    font-family: "Outfit";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.desktop.section-3 {
+    position: absolute;
+    height: 244px;
+    width: 1440px;
+    left: 0px;
+    right: 0px;
+    top: 2310px;
+    background-color: #151515;
+}
+.desktop.section-3 .contact {
+    border: 2px solid whitesmoke;
+    position: absolute;
+    width: 1110px;
+    height: 84px;
+    left: 165px;
+    top: 80px;
+    color: #ffffff;
+
+}
+.contact #name {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    height: 58px;
+    width: 159.6px;
+    left: 0px;
+    top: 0px;
+}
+.contact p {
+    position: absolute;
+    height: 84px;
+    width: 430px;
+    left: 300px;
+    top: 0px;
+    font-family: 'Outfit';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.contact .buttons {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 1175px;
+    top: 0px;
+    padding: 20px;
+}
+
+@media only screen and (381px <= width <= 768px ) {
+    .desktop.section-1 {
+        height: 700px;
+        max-width: 768px;
+        min-width: 381;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        margin-bottom: 179px;
+        background-image: url(assets/tablet/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: 437px 700px;
+        background-position: 0px 0px;
+    }
+    .desktop.section-1 .blank-space {
+        display: none;
+    }
+    .section-1 .sub1 {
+        position: absolute;
+        width: 339px;
+        height: 410px;
+        left: 389px;
+        top: 145px;
+    }
+    .desktop.section-1 .title {
+        font-size: 70px;
+        font-weight: 900;
+        color: #151515;
+        line-height: 65px;
+        height: 130px;
+        width: 339px;
+        left: 0px;
+        top: 0px;
+    }
+    .inspiration {
+        font-size: 18px;
+        line-height: 28px;
+        height: 112px;
+        width: 339px;
+        left: 0px;
+        top: 178px;   
+    }
+    .location.tab {
+        width: 260px;
+        height: 72px;
+        left: 0px;
+        top: 338px;
+    }
+    .location.tab .text {
+        height: 72px;
+        width: 204px;
+        left: 0px;
+        top: 0px;
+    }
+    
+    .desktop.section-2 {
+        position: absolute;
+        height: 1131px;
+        width: 689px;
+        left: 39px;
+        top: 820px;
+        border: 2px solid green;
+        background-image: url(assets/tablet/image-grid-1.jpg), url(assets/tablet/image-grid-2.jpg), url(assets/tablet/image-grid-3.jpg);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-size: 398px 400px, 398px 720px, 280px 313px;
+        background-position: 291px 0px, 0px 411px, 409px 411px;
+    }
+    .desktop.section-2 .text {
+        height: 135px;
+        width: 223px;
+        left: 0px;
+        top: 60px;
+    }
+    .desktop.section-2 .text span {
+        height: 120px;
+        width: 350px;
+        left: 0px;
+        top: 0px;
+        text-transform: uppercase;
+        color:#151515;
+        font-family: "Big Shoulders Display";
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 45px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    #text-a {
+        height: 140px;
+        width: 223px;
+        position: absolute;
+        top: 159px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .desktop.section-2 .gallery-text {
+        height: 396px;
+        width: 280px;
+        left: 408px;
+        top: 734px;
+    }
+    #text2 span {
+        height: 90px;
+        width: 223px;
+        font-size: 50px;
+        line-height: 45px;
+    }
+    #text3 {
+        height: 112px;
+        width: 223px;
+        top: 114px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .desktop.section-3 {
+        height: 216px;
+        width: 768px;
+        top: 2071px;
+    }
+    .desktop.section-3 .contact {
+        width: 689px;
+        height: 104px;
+        left: 39px;
+        top: 56px;
+    }
+    .contact #name {
+        height: 40px;
+        width: 110.05px;
+        bottom: 64px;
+        font-size: 20px;
+    }
+
+    .contact p {
+        height: 104px;
+        width: 281px;
+        left: 175px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    
+    
+}
