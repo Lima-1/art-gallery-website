@@ -52,7 +52,7 @@
     left: 156px;
     top: 0px;
 }
-svg {
+.right-arrow {
     position: absolute;
     left: 24px;
     top: 24px;
@@ -60,14 +60,13 @@ svg {
 }
 .desktop.section-2 {
     background-color: #151515;
-    position: absolute;
     width: 1440px;
+    position: absolute;
     height: 548px;
     left: 0px;
     top: 600px;
 }
 .desktop.section-2 .content {
-    border: 2px solid whitesmoke;
     position: absolute;
     width: 1110px;
     height: 316px;
@@ -141,43 +140,39 @@ svg {
     text-align: left;
 
 }
-.desktop.section-3 {
-    background-color: #D5966C;
-    position: absolute;
-    width: 1440px;
-    height: 244px;
-    left: 0px;
-    top: 1148px;
-
+.footer {
+	position: absolute;
+	height: 244px;
+	left: 0px;
+	right: 0px;
+	top: 548px;
+	background-color: #D5966C;
+    display: flex;
 }
-.desktop.section-3 .contact {
-    border: 2px solid black;
-    position: absolute;
-    width: 1110px;
-    height: 84px;
-    left: 165px;
-    top: 80px;
-    color:#151515;
-    ;
-
+.footer--container {
+    display: flex;
+    color: #151515;
+    width: 100%;
+    justify-content: space-between;
+    
 }
-.contact #name {
-    text-transform: uppercase;
-    font-family: 'Big Shoulders Display', cursive;
-    font-weight: 900;
+.footer--logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Big Shoulders Display';
     font-size: 30px;
-    position: absolute;
-    height: 58px;
-    width: 159.6px;
-    left: 0px;
-    top: 0px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 27px;
+
 }
-.contact p {
-    position: absolute;
-    height: 84px;
-    width: 430px;
-    left: 300px;
-    top: 0px;
+.footer--description {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Outfit';
     font-size: 18px;
     font-weight: 300;
@@ -186,6 +181,16 @@ svg {
     text-align: left;
 
 }
+.social-media--icons {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    fill: #151515;
+    
+}
+
 
 
 @media only screen and (481px <= width <= 768px ) {
@@ -204,7 +209,6 @@ svg {
         top: 600px;
     }
     .desktop.section-2 .content {
-        border: 2px solid whitesmoke;
         width: 689px;
         height: 268px;
         left: 39px;
@@ -250,47 +254,31 @@ svg {
         font-size: 18px;
         line-height: 28px;
     }
-    .desktop.section-3 {
-        width: 768px;
+    .footer{
+        top: 400px;
         height: 216px;
-        left: 0px;
-        top: 1036px;
-    
     }
-    .desktop.section-3 .contact {
-        width: 689px;
-        height: 104px;
-        left: 39px;
-        top: 56px;
-    }
-    .contact #name {
-        height: 40px;
-        width: 110.05px;
-        bottom: 64px;
-        font-size: 20px;
-    }
-
-    .contact p {
-        height: 104px;
-        width: 281px;
-        left: 175px;
+    .footer--description {
         font-size: 16px;
         line-height: 26px;
     }
-
+    
 }
 
 @media only screen and (320<= width <= 480px ) {
     .desktop.section-1 {
         background-image: url("assets/mobile/image-map.png");
-        width: 375px;
         height: 550px;
     }
-    .location.tab {
-        position: absolute;
-        left: 0px;
+    .location.tab .text{
+        border: 2px solid green;
         top: 0px;
+        left: 0px;
     }
+    .desktop.section-2 {
+        height: 493px;
+    }
+    
 }    
 
 
